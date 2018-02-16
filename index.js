@@ -1,7 +1,6 @@
-function jediName(firstName, lastName) {
-    let c = firstName.slice(0, 2);
-    let s = lastName.slice(0, 3);
-    console.log(s + c);
+'use strict';
+const jediName = function(firstName, lastName) {
+  console.log(lastName.slice(0, 3) + firstName.slice(0, 2));
 };
 
-jediName("beyonce", "Knowles");
+jediName('Beyonce', 'Knowles');
